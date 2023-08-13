@@ -298,17 +298,24 @@ box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 margin-bottom: 20px;
 overflow: hidden;
 }
-
-@media frame {
+@media screen and (max-width: 768px) {
+  .car-list {
+    width: 100%;
+    padding: 20;
+  }
   .car {
-    width: 60%; /* Adjust the width value as needed */
+    width: 100%; /* Adjust the width value as needed */
+  }
+  .car-details{
+    width: 100%;
   }
   .car-note{
-    width: 80%;
+    width: 100%;
     padding: 0;
     text-align: left;
   }
 }
+
 
 .car-note {
   width: 300px;
