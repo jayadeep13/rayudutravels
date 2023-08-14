@@ -70,6 +70,7 @@
   .imglogohead {
     display: flex;
     align-items: center;
+    background-color:#F8F6F0;
   }
 
   .imagelogo {
